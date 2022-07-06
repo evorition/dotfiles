@@ -1,0 +1,43 @@
+filetype plugin indent on
+
+if has('win32')
+  syntax on
+  set encoding=utf-8
+  set shell=$PROGRAMW6432/Git/bin/bash.exe
+  set ruler
+  set clipboard=unnamed
+  set backspace=indent,eol,start
+  set directory^=$HOME/vimfiles/swap//
+
+  if has('gui_running')
+    set guicursor+=a:blinkon0
+    set guioptions=Ace
+    set guifont=Hack:h11
+  endif
+else
+  set clipboard=unnamedplus
+  set directory^=$HOME/.vim/swap//
+endif
+
+set number relativenumber
+
+let g:zenburn_alternate_Visual=1
+let g:zenburn_italic_Comment=1
+set background=dark
+colorscheme zenburn
+
+set cursorline
+
+set expandtab tabstop=2 shiftwidth=2 softtabstop=-1
+set autoindent
+
+set scrolloff=5
+
+set laststatus=2
+
+set hlsearch
+set incsearch
+
+set belloff=all
+
+set mouse=a

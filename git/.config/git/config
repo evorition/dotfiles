@@ -1,0 +1,7 @@
+[user]
+  name = Maxim Makovskiy
+  email = makovskiyms@gmail.com
+[core]
+  excludesfile = ~/.config/git/.gitignore_global
+[alias]
+  commit-b = -c user.name='Name Surname' -c user.email='example@mail.com' commit
