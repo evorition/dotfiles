@@ -1,0 +1,6 @@
+[user]
+  name = Maxim Makovskiy
+  email = makovskiyms@gmail.com
+[core]
+  editor = nvim
+  excludesfile = ~/.config/git/.gitignore_global
